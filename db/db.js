@@ -6,7 +6,7 @@ import mongoose from "mongoose";
 function connect(){
     mongoose.connect(process.env.MONGODB_URI)
     .then(()=>{
-        console.log("Connected to MongoDb");
+        console.log("Connected to MongoDbatlas");
     })
     .catch((err)=>{
         console.log("Error connecting to MongoDb", err);
